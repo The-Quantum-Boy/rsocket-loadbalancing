@@ -1,0 +1,21 @@
+server:
+  port: 7000
+
+spring:
+  application:
+    name: rsocket-client-app
+#  rsocket:
+#    server:
+#      port: 8000
+
+
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: true
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
